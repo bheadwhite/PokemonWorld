@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+    background: purple;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+li {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.PokemonDisp-wrapper {
+    width: 100vw;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
